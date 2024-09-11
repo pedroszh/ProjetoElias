@@ -1,3 +1,4 @@
+// Array de receitas com nomes e ingredientes
 const receitas = [
     {
         nome: "Bolo de Cenoura",
