@@ -41,7 +41,7 @@ function exibirReceita() {
 
 document.getElementById('nova-receita').addEventListener('click', exibirReceita);
 
-
+// exibe uma receita ao carregar a página
 window.onload = exibirReceita;
 
 
