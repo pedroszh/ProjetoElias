@@ -25,6 +25,7 @@ const receitas = [
 
 // função para exibir uma recita aleatória
 function exibirReceita() {
+    // seleciona uma receita aletória do array
     const receitaAleatoria = receitas[Math.floor(Math.random() * receitas.length)];
     document.getElementById('nome-receita').textContent = receitaAleatoria.nome;
    
